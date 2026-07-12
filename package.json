@@ -1,0 +1,15 @@
+{
+  "name": "json2at",
+  "version": "1.0.0",
+  "main": "server.mjs",
+  "scripts": {
+    "start": "node server.mjs"
+  },
+  "license": "ISC",
+  "description": "Exchange a Google service account JSON credential for an OAuth access token.",
+  "dependencies": {
+    "@fastify/multipart": "^10.1.0",
+    "fastify": "^5.10.0",
+    "google-auth-library": "^10.9.0"
+  }
+}
